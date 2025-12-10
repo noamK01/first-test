@@ -160,6 +160,7 @@ function App() {
           </button>
 
 
+
           <button
             onClick={() => setActiveTab('settings')}
             className={`flex flex-col items-center justify-center w-full h-full transition-colors ${
