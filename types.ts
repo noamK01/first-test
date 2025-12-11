@@ -52,3 +52,11 @@ export interface WebhookPayload {
   count_not_interested?: number;
   count_other?: number;
 }
+
+export type ToastType = 'success' | 'error' | 'info';
+
+export interface ToastMessage {
+  id: string;
+  message: string;
+  type: ToastType;
+}
